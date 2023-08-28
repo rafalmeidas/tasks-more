@@ -1,10 +1,20 @@
-import Head from "next/head";
-import styles from "../styles/home.module.css";
+import { GetStaticProps } from "next";
+import { collection, getDocs } from "firebase/firestore";
 import Image from "next/image";
+import Head from "next/head";
+
+import { db } from "../services/firebaseConnection";
 
 import heroImg from "../../public/assets/hero.png";
 
-export default function Home() {
+import styles from "../styles/home.module.css";
+
+interface HomeProps {
+  posts: number;
+  comments: number;
+}
+
+export default function Home({ comments, posts }: HomeProps) {
   return (
     <div className={styles.container}>
       <Head>
@@ -28,14 +38,30 @@ export default function Home() {
 
         <div className={styles.infoContent}>
           <section className={styles.box}>
-            <span>+12 posts</span>
+            <span>+{posts} posts</span>
           </section>
 
           <section className={styles.box}>
-            <span>+90 comentários</span>
+            <span>+{comments} comentários</span>
           </section>
         </div>
       </main>
     </div>
   );
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  const commentsRef = collection(db, "comments");
+  const tasksRef = collection(db, "tasks");
+
+  const commentsSnapshot = await getDocs(commentsRef);
+  const postsSnapshot = await getDocs(tasksRef);
+
+  return {
+    props: {
+      posts: postsSnapshot.size || 0,
+      comments: commentsSnapshot.size || 0,
+    },
+    revalidate: 60, // revalidado a cada 60 segundos
+  };
+};
