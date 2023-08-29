@@ -305,7 +305,6 @@ Independente de qual tela esteja visualizando, ao clicar no logotipo "Tarefas+" 
 Agora você está completamente preparado para explorar e aproveitar ao máximo todas as funcionalidades oferecidas pelo projeto 'Tarefas+'. Divirta-se enquanto navega e utiliza todas as características desta aplicação excepcional!
 
 ## 📝 Licença
-
-## Este projeto está sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 Feito com ❤️ por Rafael.
