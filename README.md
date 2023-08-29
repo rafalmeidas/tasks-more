@@ -1,4 +1,4 @@
-[![Front-End Tests](https://github.com/rafalmeidas/tasks-more/actions/workflows/front-end-tests.yml/badge.svg)](https://github.com/rafalmeidas/tasks-more/actions/workflows/front-end-tests.yml)
+[![Front-End Tests](https://github.com/rafalmeidas/tasks-more/actions/workflows/front-end-tests.yml/badge.svg?branch=main)](https://github.com/rafalmeidas/tasks-more/actions/workflows/front-end-tests.yml)
 
 # 👋 Tarefas+
 
