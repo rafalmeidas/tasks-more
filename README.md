@@ -1,4 +1,4 @@
-[![Front-End Tests](https://github.com/rafalmeidas/search-d_evs/actions/workflows/front-end-tests.yml/badge.svg)](https://github.com/rafalmeidas/search-d_evs/actions/workflows/front-end-tests.yml)
+[![Front-End Tests](https://github.com/rafalmeidas/tasks-more/actions/workflows/front-end-tests.yml/badge.svg)](https://github.com/rafalmeidas/tasks-more/actions/workflows/front-end-tests.yml)
 
 # 👋 Tarefas+
 
@@ -125,16 +125,13 @@ Bibliotecas utilizadas e motivação:
 - **Firebase:** Desperte a magia nos seus aplicativos com o Firebase! Com recursos integrados de autenticação, armazenamento, bancos de dados em tempo real e até mesmo funções personalizadas em nuvem, o Firebase torna o desenvolvimento mais rápido e eficiente. Além disso, sua capacidade de colaboração em tempo real e análises detalhadas de desempenho garantem que você crie uma experiência excepcional para os usuários. Experimente o Firebase e transforme suas ideias em realidade digital de maneira simples e poderosa! ✨🔥
 
 - **NextAuth:** Eleve a segurança e a autenticação da sua aplicação Next.js com o NextAuth.js! Com essa biblioteca de autenticação, você economiza tempo e oferece uma experiência excepcional aos usuários.
+  Imagine integrar facilmente provedores de autenticação como Google, Facebook e GitHub. O NextAuth.js simplifica esse processo, permitindo que os usuários acessem sua aplicação de maneira rápida e segura, usando suas credenciais preferidas.
 
-Imagine integrar facilmente provedores de autenticação como Google, Facebook e GitHub. O NextAuth.js simplifica esse processo, permitindo que os usuários acessem sua aplicação de maneira rápida e segura, usando suas credenciais preferidas.
+  Além disso, a segurança é prioridade. O NextAuth.js protege contra ameaças, como ataques de força bruta e cross-site scripting (XSS), garantindo a autenticação dos usuários e a integridade dos dados. É fácil de usar. Com um fluxo de autenticação simples, você se concentra no desenvolvimento das funcionalidades principais da sua aplicação.
 
-Além disso, a segurança é prioridade. O NextAuth.js protege contra ameaças, como ataques de força bruta e cross-site scripting (XSS), garantindo a autenticação dos usuários e a integridade dos dados.
+  O NextAuth.js simplifica a autenticação na sua aplicação Next.js, oferecendo segurança, integração e uma experiência aprimorada para o usuário. Incorporar o NextAuth.js significa autenticação tranquila e segura para seus usuários, permitindo que você se concentre em construir uma aplicação excepcional.
 
-É fácil de usar. Com um fluxo de autenticação simples, você se concentra no desenvolvimento das funcionalidades principais da sua aplicação.
-
-O NextAuth.js simplifica a autenticação na sua aplicação Next.js, oferecendo segurança, integração e uma experiência aprimorada para o usuário. Incorporar o NextAuth.js significa autenticação tranquila e segura para seus usuários, permitindo que você se concentre em construir uma aplicação excepcional.
-
-Para mais detalhes sobre a configuração [Acesse](https://next-auth.js.org/getting-started/example)
+  Para mais detalhes sobre a configuração [Acesse](https://next-auth.js.org/getting-started/example)
 
 ## ⚙️ Instalação
 
