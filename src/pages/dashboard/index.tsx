@@ -14,6 +14,7 @@ import { getSession } from "next-auth/react";
 import { GetServerSideProps } from "next";
 import { FiShare2 } from "react-icons/fi";
 import { FaTrash } from "react-icons/fa";
+import { Session } from "next-auth";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -24,11 +25,7 @@ import { db } from "@/services/firebaseConnection";
 
 import styles from "./styles.module.css";
 
-interface DashboardProps {
-  user: {
-    email: string;
-  };
-}
+interface DashboardProps extends Session {}
 
 interface TaskProps {
   id: string;
